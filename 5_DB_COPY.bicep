@@ -31,7 +31,7 @@ resource newClientPrimaryDB 'Microsoft.Sql/servers/databases@2021-05-01-preview'
     elasticPoolId: primaryElasticPool.id
   }
   tags: {
-    w5dbtype: 'clientprod'
+    dbtype: 'clientprod'
   }
 }
 
