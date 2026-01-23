@@ -1,4 +1,4 @@
-W5 Database Copy and Deployment (PowerShell + Bicep)
+Database Copy and Deployment (PowerShell + Bicep)
 
 This script triggers a Bicep deployment that creates a copy of an existing Azure SQL database, placing primary and secondary copies into their designated elastic pools across regions.
 
